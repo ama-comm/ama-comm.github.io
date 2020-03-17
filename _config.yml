@@ -6,16 +6,17 @@ baseurl:            "/"
 url:                "https://ama-comm.github.io"
 
 # Social Profiles
-#twitter_username:   ama-comm
+#twitter_username:  ama-comm
 github_username:    ama-comm
-#facebook_username:  ama-comm
-#linkedin_username:  ama-comm
+#facebook_username: ama-comm
+#linkedin_username: ama-comm
 
 # Add your google-analytics ID here to activate google analytics
 #google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
+parse_block_html:   true
 paginate:           5
 paginate_path:      "/posts/page:num/"
 plugins:
