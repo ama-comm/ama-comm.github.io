@@ -1,1 +1,24 @@
-theme: jekyll-theme-modernist
+title:              AMA.Comm
+email:              admin@ama-comm.com
+description:        AMA.Comm's dev related blog
+author:             AMA.Comm
+baseurl:            "/"
+url:                "https://ama-comm.github.io"
+
+# Social Profiles
+#twitter_username:   ama-comm
+github_username:    ama-comm
+#facebook_username:  ama-comm
+#linkedin_username:  ama-comm
+
+# Add your google-analytics ID here to activate google analytics
+#google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
